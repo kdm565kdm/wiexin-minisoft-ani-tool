@@ -1,0 +1,136 @@
+/**wxss.wxss**/
+/* .container{
+  transform:rotate(90deg);
+-ms-transform:rotate(90deg); 
+-moz-transform:rotate(90deg); 
+-webkit-transform:rotate(90deg); 
+-o-transform:rotate(90deg); 
+} */
+#voice{
+  display: none;
+}
+.icon{
+  margin-left: 190rpx;
+}
+.displayDatas{
+  width: 300rpx;
+  position: absolute;
+  top: 470rpx;
+  left: 400rpx;
+  color: black;
+  font-size: 10px;
+  z-index: 99;
+}
+
+.dataBtn{
+  background: rgba(0,0,0,0);
+}
+.viewPlay{
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 450rpx;
+  
+}
+.viewPlay image{
+  width: 100%;
+  height: 450rpx; 
+}
+.camera{
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height:450rpx;
+
+}
+.cameraPlaying{
+  display: none;
+}
+.viewTakePhoto{
+  position: absolute;
+  top: 460rpx;
+  left: 0rpx;
+  width: 150rpx;
+  height: 100%;
+  text-align: center;
+  line-height: 50px; 
+}
+.cameraSetting{
+  width: 150rpx;
+  position: absolute;
+  top: 460rpx;
+  right: -5rpx;
+  flex: 1;
+  height: 100%;
+  text-align: center;
+  line-height: 50px;
+}
+
+.btn {
+  background: rgba(19, 19, 24, 0.719);
+  color: white;
+
+}
+
+
+
+.queueImg{
+  position: absolute;
+  top: 480rpx;
+  left: 150rpx;
+  width: 220rpx;
+  height: 650rpx;
+  padding: 10rpx 10rpx 10rpx 10rpx;
+  border: 1px solid rgb(148, 148, 179);
+}
+.frame{
+  width: 230rpx;
+  height: 130rpx; 
+
+}
+.frameSelected{
+  width: 230rpx;
+  height: 130rpx; 
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+}
+#frameId{
+  position: relative;
+  top:100rpx;
+  color: yellow;
+  z-index: 99;
+}
+input{
+  background: rgb(73, 77, 95);
+  color: yellow;
+}
+
+
+.queueVoice{
+  position: absolute;
+  top: 480rpx;
+  left: 500rpx;
+  width: 80rpx;
+  height: 650rpx;
+  padding: 10rpx 10rpx 10rpx 10rpx;
+  border: 1px solid rgb(123, 138, 112);
+}
+
+.btnVoice{
+  height: 50rpx;
+  font-size: 10px;
+}
+.btnVoiceSelected{
+  height: 50rpx;
+  font-size: 10px;
+  opacity:0.5;
+}
+
+
+/* 音像合成 */
+#merge{
+  z-index: 99;
+  position: absolute;
+  top: 350rpx;
+  color: rgb(100, 120, 185);
+}
